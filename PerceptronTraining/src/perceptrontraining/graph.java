@@ -19,6 +19,7 @@ public class graph extends JFrame {
         lineY1 = y1;
         lineX2 = x2;
         lineY2 = y2;
+        repaint();
     }
 
     private ArrayList<int[]> points = new ArrayList<>();
@@ -28,6 +29,7 @@ public class graph extends JFrame {
         for (int[] cord : coords) {
             points.add(cord);
         }
+        repaint();
     }
     
     String status = "";
