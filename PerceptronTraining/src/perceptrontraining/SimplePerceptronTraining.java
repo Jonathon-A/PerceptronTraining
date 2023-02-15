@@ -2,7 +2,7 @@ package perceptrontraining;
 
 import javax.swing.JFrame;
 
-public class PerceptronTraining {
+public class SimplePerceptronTraining {
  
     public static void train() throws InterruptedException{
         
